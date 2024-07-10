@@ -1,0 +1,121 @@
+.maindiv {
+    max-width: 1500px;
+}
+
+.hit {
+    height: 91vh;
+    top: 60px;
+    scrollbar-width: thin;
+}
+
+.bgcol {
+    background-color: #000
+}
+
+.colore {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.vignette {
+    height: 90vh;
+    width: fit;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(225, 225, 225) 120%);
+}
+
+.info-div {
+    text-shadow: #000 1px 0 10px;
+    top: 10%;
+    font-size: 9vh;
+    padding-left: 10px;
+}
+
+.info-div2 {
+    text-shadow: #000 1px 0 10px;
+    top: 45%;
+    font-size: 6vh;
+    padding-left: 10px;
+}
+
+.info-div3 {
+    text-shadow: #000 1px 0 10px;
+    top: 55%;
+    font-size: 6vh;
+    padding-left: 10px;
+}
+
+.info-div4 {
+    text-shadow: #000 1px 0 10px;
+    top: 65%;
+    font-size: 6vh;
+    padding-left: 10px;
+}
+
+
+.slide-right {
+    text-shadow: #000 1px 0 10px;
+    animation: slide-right 5.3s;
+}
+
+
+@keyframes slide-right {
+    0% {
+        margin-left: -100%;
+        opacity: 0;
+    }
+
+    25% {
+        margin-left: 0%;
+        opacity: 1
+    }
+
+    75% {
+        margin-left: 0%;
+        opacity: 1;
+    }
+
+    100% {
+        margin-left: -100%;
+        opacity: 0;
+    }
+}
+
+.button-col {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-color: #000;
+}
+
+.active-button,
+.button-col:hover {
+    background-color: white;
+    color: #000;
+    border-color: #fff;
+}
+
+.linktag {
+    text-decoration: none;
+}
+
+.linktag>a {
+    color: #fff;
+}
+
+.content-col {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.img-height {
+    height: 30vh;
+    box-shadow: #000 0px 0px 0px;
+}
+
+.leaflet-container {
+    height: 70vh;
+    width: 50wh;
+}
+.style{
+    font-size: 10vh;
+    margin-left: 10px;
+}
