@@ -18,7 +18,7 @@ const SideBar = () => {
   }, []);
   return (<>
     <form className="d-flex m-2" role="search">
-      <input className="form-control me-2" onChange={(e) => setSearch(e.target.value)} type="search" placeholder="Search" aria-label="Search" />
+      <input className="form-control me-2" onChange={(e) => setSearch(e.target.value.toLowerCase())} type="search" placeholder="Search" aria-label="Search" />
     </form>
     <nav className="nav flex-column p-lg-1 bg-black mt-3 mx-2">
       {countries.filter((item) => {
