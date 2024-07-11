@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import '../App.css'
 
 const Map = () => {
-    const [countries, setCountries] = useState([{ "flags": { "svg": "flag" }, "name": "India"}])
+    const [countries, setCountries] = useState([{ "flags": { "svg": "flag" }, "name": "India" }])
     const nameref = useRef()
     const [index, setIndex] = useState(0)
 
@@ -37,7 +37,7 @@ const Map = () => {
 
     return (
         <div className=''>
-            <img id='flag' src={countries[index].flags.png} className=' img-fluid p-4 vignette slide-right position-relative' alt="map-image" />
+            <img id='flag' src={countries[index].flags.png} className=' img-fluid vignette slide-right position-relative' alt="map-image" />
             <div ref={nameref} className=' z-3 text-white position-absolute slide-right info-div mt-5'>
                 {countries[index].name.common}
             </div>

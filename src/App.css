@@ -21,12 +21,22 @@
     width: fit;
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 5%, rgba(225, 225, 225) 120%);
 }
-
+@media (max-width: 768px) {
+    .vignette {
+        height: 30vh;
+    }
+}
 .info-div {
     text-shadow: #000 1px 0 10px;
     top: 10%;
     font-size: 9vh;
     padding-left: 10px;
+}
+@media (max-width: 768px) {
+    .info-div {
+        top: 2%;
+        font-size: 6vh;
+    }
 }
 
 .info-div2 {
@@ -35,19 +45,10 @@
     font-size: 6vh;
     padding-left: 10px;
 }
-
-.info-div3 {
-    text-shadow: #000 1px 0 10px;
-    top: 55%;
-    font-size: 6vh;
-    padding-left: 10px;
-}
-
-.info-div4 {
-    text-shadow: #000 1px 0 10px;
-    top: 65%;
-    font-size: 6vh;
-    padding-left: 10px;
+@media (max-width: 768px) {
+    .info-div2 {
+        display: none;
+    }
 }
 
 
@@ -109,6 +110,11 @@
 .img-height {
     height: 30vh;
     box-shadow: #000 0px 0px 0px;
+}
+@media (max-width: 768px) {
+    .img-height {
+        height: 20vh;
+    }
 }
 
 .leaflet-container {
