@@ -115,7 +115,23 @@
     height: 70vh;
     width: 50wh;
 }
-.style{
+
+.style {
     font-size: 10vh;
     margin-left: 10px;
+}
+
+.remove-underline > a{
+    text-decoration: none;
+}
+
+.remove-underline{
+    margin-top: 1px;
+    padding-left: 2px;
+    background-color: rgb(21, 21, 21);
+    border-bottom: #a5a5a5;
+}
+
+.remove-underline:hover{
+    transform: scale(1.05);
 }

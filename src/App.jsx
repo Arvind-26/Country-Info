@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <div className="row">
-        <div className="col p-0 fixed-top border-bottom">
+        <div className="col p-0 fixed-top">
           <Header />
         </div>
       </div>
       <div className="row maindiv">
-        <div className="col col-md-10 p-0 pt-5 px-2 border-start pb-3">
+        <div className="col col-md-10 p-0 pt-5 px-2 border-end pb-3">
           <div className=' border-bottom'>
             <Map />
           </div>

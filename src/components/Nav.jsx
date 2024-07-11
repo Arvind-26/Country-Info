@@ -22,12 +22,12 @@ const Nav = () => {
     }, [location])
     return (
         <>
-            <div class="btn-group pt-3" role="group" aria-label="Basic example">
-                <Link to="/" className='linktag'><button type="button" ref={home} id='home-but' class="btn button-col m-1 mb-0">Home</button></Link>
-                <Link to={url} className='linktag'><button ref={country} type="button" id='cont-but' class="btn button-col m-1 mb-0">Country</button></Link>
+            <div className="btn-group pt-3" role="group" aria-label="Basic example">
+                <Link to="/" className='linktag'><button type="button" ref={home} id='home-but' className="btn button-col m-1 mb-0">Home</button></Link>
+                <Link to={url} className='linktag'><button ref={country} type="button" id='cont-but' className="btn button-col m-1 mb-0">Country</button></Link>
             </div>
             <div className="tab-content mt-0 pt-0" id="pills-tabContent">
-                <div className="tab-pane fade show content-col active mt-0 pt-0" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div className="tab-pane fade show content-col active mt-0 pt-0" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                     <Routes>
                         <Route exact path="/" element={<Cards />} />
                         <Route exact path="/country" element={<Country />} />
